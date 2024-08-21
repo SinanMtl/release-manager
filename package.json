@@ -1,0 +1,36 @@
+{
+  "name": "@sinanmtl/release-manager",
+  "version": "0.1.4",
+  "description": "Prepare release on your terminal",
+  "license": "MIT",
+  "author": "Sinan Mutlu <smutludev@gmail.com> (https://github.com/SinanMtl/release-manager)",
+  "main": "src/index.mjs",
+  "bin": {
+    "release-manager": "src/index.mjs"
+  },
+  "scripts": {},
+  "repository": {
+    "url": "git://github.com/SinanMtl/release-manager.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "release",
+    "pull request",
+    "deployment",
+    "production"
+  ],
+  "bugs": {
+    "url": "https://github.com/SinanMtl/release-manager/issues"
+  },
+  "homepage": "https://github.com/SinanMtl/release-manager#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {}
+}
